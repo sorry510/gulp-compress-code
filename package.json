@@ -1,0 +1,24 @@
+{
+  "name": "gulp-compress-code",
+  "description": "gulp-compress-code",
+  "keywords": [
+    "framework",
+    "laravel"
+  ],
+  "license": "MIT",
+  "author": "sorry510",
+  "devDependencies": {
+    "@babel/cli": "^7.7.0",
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.7.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-minify-html": "^1.0.6",
+    "gulp-rename": "^1.4.0",
+    "gulp-uglify": "^3.0.2"
+  }
+}

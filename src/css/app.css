@@ -1,0 +1,443 @@
+body, div, span, button, code, input, select, textarea {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3", Arial, sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #fff;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.gm-sys {
+    list-style: none;
+    height: 60px;
+    line-height: 60px;
+    padding: 0px;
+    margin: 0px;
+    float: left;
+}
+
+.gm-sys > li {
+    float: left;
+}
+
+.gm-sys > li > a {
+    padding: 0 20px;
+    color: white;
+    height: 60px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 15px;
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.gm-sys > li:last-child > a {
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+ul.gm-sys > li > a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.gm-main-wrap {
+    border-radius: 5px;
+}
+
+.page-menu {
+    width: 200px;
+    position: absolute;
+    background-color: rgb(238, 245, 246);
+    padding-bottom:20px;
+}
+
+.page-menu-small {
+    width: 50px !important;
+}
+
+.page-menu-small:before {
+    width: 50px !important;
+}
+
+.page-menu:before {
+    content: "";
+    position: fixed;
+    width: 200px;
+    bottom: 0;
+    top: 80px;
+    padding-bottom:20px;
+    background-color: rgb(238, 245, 246);
+    z-index: -1;
+}
+
+.gm-main-wrap > .page-content {
+    margin-left: 200px;
+}
+
+.gm-main-wrap > .page-content:before {
+    content: "";
+    position: fixed;
+    left: 230px;
+    right: 30px;
+    bottom: 20px;
+    top: 80px;
+    background-color: #fff;
+    z-index: -1;
+}
+
+.gm-main-wrap > .page-content-small {
+    margin-left: 50px !important;
+}
+
+.gm-main-wrap > .page-content-small:before {
+    left: 80px;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 15px !important;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+/* 滚动条的滑轨背景颜色 */
+
+::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    padding: 0px 2px;
+    border-radius: 5px;
+}
+
+/* 滑块颜色 */
+
+::-webkit-scrollbar-button {
+    background-color: transparent;
+    height: 0px;
+    width: 0px
+}
+
+/* 滑轨两头的监听按钮颜色 */
+
+::-webkit-scrollbar-corner {
+    background-color: transparent;
+    height: 0px;
+    width: 0px;
+}
+
+.gm-home {
+    float: left;
+    margin-right: 10px;
+    font-size: 18px;
+    margin-top: -6px;
+    color: #408080;
+}
+
+.gm-back {
+    float: left;
+    margin-right: 10px;
+    font-size: 16px;
+    margin-top: -12px;
+    color: #408080;
+}
+
+.gm-breadcrumb {
+    border-bottom: 1px solid #e5e9f2;
+    margin: -10px -20px 18px;
+    padding: 25px 20px 30px;
+    font-size: 14px;
+}
+
+.gm-breadcrumb > .el-breadcrumb {
+    float: left;
+}
+
+/** table nav **/
+.el-pagination {
+    float: right;
+    width: 100%;
+    text-align: right;
+    margin-top: 5px;
+}
+
+.el-pagination > .el-pagination__total {
+    float: left;
+}
+
+/** table nav **/
+
+/* ==========================================================================
+   Component: Panel
+ ============================================================================ */
+.am-panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 0;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+/* Panel header */
+.am-panel-hd {
+    padding: 0.6rem 1.25rem;
+    border-bottom: 1px solid transparent;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    font-size: 14px;
+}
+
+/* Panel content */
+.am-panel-bd {
+    padding: 1.25rem;
+    font-size: 14px;
+}
+
+.am-panel-title {
+    margin: 0;
+    font-size: 100%;
+    color: inherit;
+}
+
+.am-panel-title > a {
+    color: inherit;
+}
+
+/* 卡片样式 */
+.card {
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    margin: .4rem 0;
+}
+
+.card .content {
+    padding: 1em;
+    position: relative;
+}
+
+/* 卡片样式 */
+
+.warinng {
+    color: #F56C6B;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.full-height {
+    height: 100%;
+}
+
+.pd-15 {
+    padding: 15px;
+}
+
+.pd-20 {
+    padding: 20px;
+}
+
+.pl-5 {
+    padding-left: 5px;
+}
+
+.pl-10 {
+    padding-left: 10px;
+}
+
+.pl-15 {
+    padding-left: 15px;
+}
+
+.pl-16 {
+    padding-left: 16px;
+}
+
+.pl-20 {
+    padding-left: 20px;
+}
+
+.pl-32 {
+    padding-left: 32px;
+}
+
+.pl-48 {
+    padding-left: 48px;
+}
+
+.pl-60 {
+    padding-left: 60px;
+}
+
+.pt-20 {
+    padding-top: 20px;
+}
+
+.pt-5 {
+    padding-top: 5px;
+}
+
+.pt-6 {
+    padding-top: 6px;
+}
+
+.pt-15 {
+    padding-top: 15px;
+}
+
+.pb-15 {
+    padding-bottom: 15px;
+}
+
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+.pr-5 {
+    padding-right: 5px;
+}
+
+.pr-10 {
+    padding-right: 10px;
+}
+
+.pr-15 {
+    padding-right: 15px;
+}
+
+.pr-20 {
+    padding-right: 20px;
+}
+
+.pr-40 {
+    padding-right: 40px;
+}
+
+.mt-15 {
+    margin-top: 15px;
+}
+
+/*line-height*/
+.lh-35 {
+    line-height: 35px;
+}
+
+/*垂直居中*/
+.vertical-align-middle {
+    vertical-align: middle;
+}
+
+.white-text {
+    color: #FFFFFF;
+}
+
+.gamma-color {
+    color: #408080;
+}
+
+.gamma-bgcolor {
+    background-color: #408080;
+}
+
+.gamma-light-bgcolor {
+    background-color: #97b7b7;
+}
+
+.black-color {
+    color: black;
+}
+
+th.yellowish-bgcolor {
+    background-color: #EDE3CA;
+}
+
+th.yellowish-bgcolor > .cell {
+    background-color: #EDE3CA;
+}
+
+/*//128*128 64*64 48*48 32*32 16*16*/
+.icon-size-16 {
+    font-size: 16px;
+}
+
+.icon-size-32 {
+    font-size: 32px;
+}
+
+.icon-size-36 {
+    font-size: 36px;
+}
+
+.icon-size-24 {
+    font-size: 24px;
+}
+
+.icon-size-48 {
+    font-size: 48px;
+}
+
+.icon-size-64 {
+    font-size: 64px;
+}
+
+.icon-size-128 {
+    font-size: 128px;
+}
+
+/*flex 相关*/
+.flex {
+    display: flex;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.flex-wrap {
+    flex-wrap: wrap
+}
+
+.flex-1 {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.flex-align-center {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.flex-pack-center {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.flex-pack-justify {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+/* 修复 fabricjs 库 Itext 标签创建时因为使用的绝对定位导致页面滑动的 BUG */
+textarea[data-fabric-hiddentextarea]{ position: fixed !important; }
