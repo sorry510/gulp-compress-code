@@ -1,9 +1,11 @@
 {
   "name": "gulp-compress-code",
   "description": "gulp-compress-code",
+  "version": "0.0.1",
   "keywords": [
-    "framework",
-    "laravel"
+    "gulp",
+    "babel",
+    "uglify"
   ],
   "license": "MIT",
   "author": "sorry510",
