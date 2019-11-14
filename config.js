@@ -10,5 +10,9 @@ module.exports = {
   css: {
     src: './src/css/*.css',
     dist: './dist/css/'
+  },
+  images: {
+    src: './src/images/*',
+    dist: './dist/images/'
   }
 }
