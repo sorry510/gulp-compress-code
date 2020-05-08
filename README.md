@@ -14,3 +14,10 @@ gulp
 
 ## example
 直接执行命令gulp，可以在dist目录看到结果
+
+## bug
+如果需要打包的js文件，不再此项目下，会报找不到`uglifyify`的错,暂时无法解决
+
+```
+Error: Cannot find module 'uglifyify'
+```
